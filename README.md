@@ -63,8 +63,8 @@ This project aims to predict the Most Valuable Player (MVP) of the NBA for the 2
 
 7. **Storing Results:**
    - **Database Integration:**
-     - Saved the prediction results and relevant data into a MySQL database using pymysql.
-     - Ensured data integrity and easy retrieval for future analysis and reporting.
+     - Saved data into a MySQL on AWS database using `pymysql`.
+     - Ran queries on the MySQL database to validate and manipulate the stored data.
 
 ## Tools and Libraries
 - **Data Analysis:** Pandas, NumPy
